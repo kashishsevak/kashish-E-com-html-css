@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.super-market{
+    padding: 0 10px;
+    border: 2px solid #000;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: 25%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+img{
+    height: 200px;
+    display: block;
+}
+
+
+/* super-market section start */
+.super-market-content{
+    background-color: #eee6e6;
+    padding: 1rem 2rem;
+    margin: 0 10px;
+}
+
+.super-market-content h2{
+    padding: .5rem 0;
+    font-weight: 550;
+}
+
+.super-market-content p{
+    font-size: 14px;
+    color: #afa6a6;
+}
+
+.super-market-content input{
+    outline: none;
+    margin: 1rem 0;
+    padding: .5rem;
+    border: 1px solid #b1afaf;
+    border-radius: 5px;
+}
+/* super-market section end */
+
+/* product-found section  */
+.product-found{
+    margin: 10px;
+    padding: 2rem 0;
+    font-size: 18px;
+}
+
+/* id */
+#count {
+    padding: 5px 40px 5px 0;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#featured {
+    margin-left: 10px;
+    padding: 5px 40px 5px 0;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+/* products section start */
+.card{
+    align-items: center;
+    margin: 10px;
+    padding: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card img{
+    padding-bottom: 1rem;
+}
+
+.card h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #afa6a6;
+}
+
+.card p{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.fa-solid{
+    color: #ffff00;
+}
+
+.btn {
+    background-color: #62ba42;
+    outline: none;
+    padding: .5rem;
+    border: 0;
+    border-radius: 2px;
+    margin-left: 4rem;
+}
+/* products section end */
